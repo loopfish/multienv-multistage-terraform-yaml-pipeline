@@ -5,7 +5,7 @@
 
 variables:
   InfraProvisioningResoureGroupName: $(environment)-provisioning-rg
-  tfBackendStorageAccountName: $(environment)terraformbackendsa
+  tfBackendStorageAccountName: 'loopfishbackend'
   tfBackendStorageContainerName: terraform-backend-files
   tfBackendFileName: $(environment)-tf-state-file
   tfvarsFile: $(environment).tfvars
